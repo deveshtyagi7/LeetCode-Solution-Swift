@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1060902A2768A28B005851CA /* LeetCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 106090292768A28B005851CA /* LeetCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		106090312768A2B7005851CA /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106090302768A2B7005851CA /* TwoSum.swift */; };
+		106090332768A339005851CA /* AddTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106090322768A339005851CA /* AddTwoNum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		106090262768A28B005851CA /* LeetCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		106090292768A28B005851CA /* LeetCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode.h; sourceTree = "<group>"; };
+		106090302768A2B7005851CA /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		106090322768A339005851CA /* AddTwoNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +50,26 @@
 			isa = PBXGroup;
 			children = (
 				106090292768A28B005851CA /* LeetCode.h */,
+				106090352768A44D005851CA /* LinkedList */,
+				106090342768A3E8005851CA /* Array And Hash */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		106090342768A3E8005851CA /* Array And Hash */ = {
+			isa = PBXGroup;
+			children = (
+				106090302768A2B7005851CA /* TwoSum.swift */,
+			);
+			path = "Array And Hash";
+			sourceTree = "<group>";
+		};
+		106090352768A44D005851CA /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				106090322768A339005851CA /* AddTwoNum.swift */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +115,7 @@
 				TargetAttributes = {
 					106090252768A28B005851CA = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -129,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106090312768A2B7005851CA /* TwoSum.swift in Sources */,
+				106090332768A339005851CA /* AddTwoNum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +285,7 @@
 		1060902E2768A28B005851CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -280,6 +306,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,6 +315,7 @@
 		1060902F2768A28B005851CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
