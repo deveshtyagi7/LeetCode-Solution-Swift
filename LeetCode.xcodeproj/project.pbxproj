@@ -9,20 +9,26 @@
 /* Begin PBXBuildFile section */
 		105609982768C00700FBEE0E /* WeakAndUnownedExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105609972768C00600FBEE0E /* WeakAndUnownedExample.swift */; };
 		1056099A2769B78A00FBEE0E /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105609992769B78A00FBEE0E /* PalindromeNumber.swift */; };
+		1056099C2769C2C800FBEE0E /* NonRepeatingElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1056099B2769C2C800FBEE0E /* NonRepeatingElement.swift */; };
+		1056099E2769E21100FBEE0E /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1056099D2769E21100FBEE0E /* GCD.swift */; };
 		1060902A2768A28B005851CA /* LeetCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 106090292768A28B005851CA /* LeetCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		106090312768A2B7005851CA /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106090302768A2B7005851CA /* TwoSum.swift */; };
 		106090332768A339005851CA /* AddTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106090322768A339005851CA /* AddTwoNum.swift */; };
 		106090372768B736005851CA /* RetainCycleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106090362768B736005851CA /* RetainCycleExample.swift */; };
+		10CD1A6E276B9F7B0064A8BB /* ReverseArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD1A6D276B9F7B0064A8BB /* ReverseArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		105609972768C00600FBEE0E /* WeakAndUnownedExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakAndUnownedExample.swift; sourceTree = "<group>"; };
 		105609992769B78A00FBEE0E /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
+		1056099B2769C2C800FBEE0E /* NonRepeatingElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonRepeatingElement.swift; sourceTree = "<group>"; };
+		1056099D2769E21100FBEE0E /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
 		106090262768A28B005851CA /* LeetCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		106090292768A28B005851CA /* LeetCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode.h; sourceTree = "<group>"; };
 		106090302768A2B7005851CA /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		106090322768A339005851CA /* AddTwoNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNum.swift; sourceTree = "<group>"; };
 		106090362768B736005851CA /* RetainCycleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainCycleExample.swift; sourceTree = "<group>"; };
+		10CD1A6D276B9F7B0064A8BB /* ReverseArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			children = (
 				106090292768A28B005851CA /* LeetCode.h */,
 				105609992769B78A00FBEE0E /* PalindromeNumber.swift */,
+				1056099B2769C2C800FBEE0E /* NonRepeatingElement.swift */,
 				106090352768A44D005851CA /* LinkedList */,
 				106090342768A3E8005851CA /* Array And Hash */,
 				106090382768B73A005851CA /* InterviewQuestion */,
@@ -68,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				106090302768A2B7005851CA /* TwoSum.swift */,
+				10CD1A6D276B9F7B0064A8BB /* ReverseArray.swift */,
 			);
 			path = "Array And Hash";
 			sourceTree = "<group>";
@@ -85,6 +93,7 @@
 			children = (
 				106090362768B736005851CA /* RetainCycleExample.swift */,
 				105609972768C00600FBEE0E /* WeakAndUnownedExample.swift */,
+				1056099D2769E21100FBEE0E /* GCD.swift */,
 			);
 			path = InterviewQuestion;
 			sourceTree = "<group>";
@@ -169,10 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CD1A6E276B9F7B0064A8BB /* ReverseArray.swift in Sources */,
+				1056099E2769E21100FBEE0E /* GCD.swift in Sources */,
 				1056099A2769B78A00FBEE0E /* PalindromeNumber.swift in Sources */,
 				106090312768A2B7005851CA /* TwoSum.swift in Sources */,
 				105609982768C00700FBEE0E /* WeakAndUnownedExample.swift in Sources */,
 				106090332768A339005851CA /* AddTwoNum.swift in Sources */,
+				1056099C2769C2C800FBEE0E /* NonRepeatingElement.swift in Sources */,
 				106090372768B736005851CA /* RetainCycleExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
